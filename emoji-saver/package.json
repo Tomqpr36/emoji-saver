@@ -1,5 +1,6 @@
 {
   "name": "project",
+  "homepage": "https://tomqpr36.github.io/emoji-saver/",
   "devDependencies": {
     "webpack": "^2.0",
     "babel-core": "^6.0",
@@ -8,6 +9,8 @@
     "babel-preset-react": "*"
   },
   "scripts": {
+    "predeploy": "yarn build",
+    "deploy": "gh-pages -d build",
     "build": "webpack",
     "watch": "webpack -w"
   }
