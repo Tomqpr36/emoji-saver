@@ -1,6 +1,6 @@
 {
   "name": "project",
-  "homepage": "https://tomqpr36.github.io/emoji-saver/",
+  "homepage": "https://emoji-saver.hostman.site/",
   "devDependencies": {
     "babel-core": "^6.0",
     "babel-loader": "^7.0",
